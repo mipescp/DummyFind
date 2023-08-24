@@ -1,0 +1,60 @@
+﻿/.vs
+/AGEAS.AIP.Core.Utils/obj
+/AGEAS.AIP.Core.Utils/nugget
+/AGEAS.AIP.Core.Utils/bin/Debug/net6.0
+/AGEAS.AIP.Core.Utils/.vs/AGEAS.AIP.Core.Utils
+/AGEAS.AIP.Core.Utils/.vs/ProjectEvaluation
+/AGEAS.AIP.Core.Utils/bin
+/AGEAS.AIP.Core.Utils.TestFunction/bin/Debug/net6.0
+/AGEAS.AIP.Core.Utils.TestFunction/obj
+/AGEAS.AIP.Core.Utils.TestFunction/Properties
+*.user
+/AGEAS.AIP.Core.Utils.TestFunction/bin/Release/net6.0
+/AGEAS.AIP.Core.Utils/bin/Debug/AGEAS.AIP.Core.Utils.1.0.0.nupkg
+/AGEAS.AIP.Core.Utils/bin/Release/net6.0/AGEAS.AIP.Core.Utils.pdb
+/AGEAS.AIP.Core.Utils/bin/Release/net6.0/AGEAS.AIP.Core.Utils.dll
+/AGEAS.AIP.Core.Utils/bin/Release/net6.0/AGEAS.AIP.Core.Utils.deps.json
+/AGEAS.AIP.Core.Utils/bin/Release/AGEAS.AIP.Core.Utils.1.0.0.nupkg
+*.nupkg
+/AGEAS.AIP.Core.Utils.Models/obj
+/AGEAS.AIP.Core.Utils.Models/bin/Debug/net6.0
+.idea
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+
+# Visual Studio Code
+.vscode
+
+# Rider
+.idea
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/
+/AGEAS.AIP.Core.Utils.TestApi/Log
