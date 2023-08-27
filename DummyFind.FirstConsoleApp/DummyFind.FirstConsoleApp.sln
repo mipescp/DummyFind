@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{2B8DC258-B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Client", "..\DummyFind.Clients\DummyFind.Client.csproj", "{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyFind.PostClientTests", "..\DummyFind.PostClientTests\DummyFind.PostClientTests.csproj", "{E507159E-F6B6-4735-99BA-FE733942D178}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E507159E-F6B6-4735-99BA-FE733942D178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E507159E-F6B6-4735-99BA-FE733942D178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E507159E-F6B6-4735-99BA-FE733942D178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E507159E-F6B6-4735-99BA-FE733942D178}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +69,7 @@ Global
 		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
 		{2B8DC258-BE89-4B84-8124-B2DC5C416E28} = {8CF4DF03-9688-413A-B50C-AAFE9848FA7C}
 		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
+		{E507159E-F6B6-4735-99BA-FE733942D178} = {8AFD03FA-F4F2-471F-810B-FCCA3D337C4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A381F6AD-04E8-454B-ABD5-7AB8F038657E}
