@@ -89,9 +89,8 @@ To get a local copy up and running follow these simple example steps.
 For this project we tried to use a simplified version of Clean Arquitecture.
 
 <div align="center">
-  <a href="./arquitecture.png">
     <img src="./arquitecture.png" width="80" height="80">
-  </a>
+</div>
 
 <b> Persistance (Enterprise Business Rules) </b>
 Is where the Database entities and context live. 
