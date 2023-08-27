@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyFind.FirstConsoleApp", "DummyFind.FirstConsoleApp.csproj", "{8FEFA8B3-5B32-48B9-841D-8C8C799AAE90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.FirstConsoleApp", "DummyFind.FirstConsoleApp.csproj", "{8FEFA8B3-5B32-48B9-841D-8C8C799AAE90}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyFind.Domain", "..\DummyFind.Domain\DummyFind.Domain.csproj", "{AA92C7AF-0BB7-4D24-BB77-C5D9BDFBCB11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Domain", "..\DummyFind.Domain\DummyFind.Domain.csproj", "{AA92C7AF-0BB7-4D24-BB77-C5D9BDFBCB11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyFind.Services", "..\DummyFind.Services\DummyFind.Services.csproj", "{91DB3605-9CFD-4AEE-8C02-5F0C9B4B3D6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Service", "..\DummyFind.Services\DummyFind.Service.csproj", "{91DB3605-9CFD-4AEE-8C02-5F0C9B4B3D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyFind.SecondConsoleApp", "..\DummyFind.SecondConsoleApp\DummyFind.SecondConsoleApp.csproj", "{187855D9-A1B5-49F5-92D9-51A7ECCAF770}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.SecondConsoleApp", "..\DummyFind.SecondConsoleApp\DummyFind.SecondConsoleApp.csproj", "{187855D9-A1B5-49F5-92D9-51A7ECCAF770}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Persistance", "..\DummyFind.Repository\DummyFind.Persistance.csproj", "{0AB7DAEF-B3CC-4146-90FB-075F65C67C38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8CF4DF03-9688-413A-B50C-AAFE9848FA7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8AFD03FA-F4F2-471F-810B-FCCA3D337C4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{2B8DC258-BE89-4B84-8124-B2DC5C416E28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Client", "..\DummyFind.Clients\DummyFind.Client.csproj", "{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +43,26 @@ Global
 		{187855D9-A1B5-49F5-92D9-51A7ECCAF770}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{187855D9-A1B5-49F5-92D9-51A7ECCAF770}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{187855D9-A1B5-49F5-92D9-51A7ECCAF770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FEFA8B3-5B32-48B9-841D-8C8C799AAE90} = {8CF4DF03-9688-413A-B50C-AAFE9848FA7C}
+		{AA92C7AF-0BB7-4D24-BB77-C5D9BDFBCB11} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
+		{91DB3605-9CFD-4AEE-8C02-5F0C9B4B3D6F} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
+		{187855D9-A1B5-49F5-92D9-51A7ECCAF770} = {8CF4DF03-9688-413A-B50C-AAFE9848FA7C}
+		{0AB7DAEF-B3CC-4146-90FB-075F65C67C38} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
+		{2B8DC258-BE89-4B84-8124-B2DC5C416E28} = {8CF4DF03-9688-413A-B50C-AAFE9848FA7C}
+		{4CD84444-7BE8-4FAC-9901-124EE5E2ABF1} = {2B8DC258-BE89-4B84-8124-B2DC5C416E28}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A381F6AD-04E8-454B-ABD5-7AB8F038657E}
