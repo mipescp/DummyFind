@@ -1,9 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://ibb.co/r0zgpdT"
->
-    <img src="https://ibb.co/r0zgpdT" width="80" height="80">
+    <img src="./logo.png" width="80" height="80">
   </a>
 
 <h3 align="center">DummyFind</h3>
