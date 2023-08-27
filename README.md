@@ -89,8 +89,8 @@ To get a local copy up and running follow these simple example steps.
 For this project we tried to use a simplified version of Clean Arquitecture.
 
 <div align="center">
-  <a href="https://ibb.co/gdZr5sm">
-    <img src="https://ibb.co/gdZr5sm" width="80" height="80">
+  <a href="./arquitecture.png">
+    <img src="./arquitecture.png" width="80" height="80">
   </a>
 
 <b> Persistance (Enterprise Business Rules) </b>
