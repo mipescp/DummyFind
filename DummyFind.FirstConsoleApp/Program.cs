@@ -48,6 +48,10 @@ using (var scope = serviceProvider.CreateScope())
         Todos = concurrentDictionary[x.UserId.Value]
     })?.ToList();
 
-    await postsService.InitializeDatabase(serviceRequest);
+    await postsService.InitializeDatabase(userDataDtos: serviceRequest);
+
+    // After this we can run the queries as requested. Not sure if the queries were inteded to be made to the database or the website. I guess database
+
+
 
 }

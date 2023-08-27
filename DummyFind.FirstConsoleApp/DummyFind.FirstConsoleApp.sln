@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.FirstConsoleApp", "DummyFind.FirstConsoleApp.csproj", "{8FEFA8B3-5B32-48B9-841D-8C8C799AAE90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Domain", "..\DummyFind.Domain\DummyFind.Domain.csproj", "{AA92C7AF-0BB7-4D24-BB77-C5D9BDFBCB11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Repository", "..\DummyFind.Domain\DummyFind.Repository.csproj", "{AA92C7AF-0BB7-4D24-BB77-C5D9BDFBCB11}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyFind.Service", "..\DummyFind.Services\DummyFind.Service.csproj", "{91DB3605-9CFD-4AEE-8C02-5F0C9B4B3D6F}"
 EndProject

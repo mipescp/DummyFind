@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DummyFind.Clients\DummyFind.Client.csproj" />
+    <ProjectReference Include="..\DummyFind.Domain\DummyFind.Repository.csproj" />
   </ItemGroup>
 
 </Project>
